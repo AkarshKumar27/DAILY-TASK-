@@ -14,3 +14,35 @@ Include fields like name, email, subject, and message.
 Use proper input types and labels.
 Style the form nicely.
 
+
+TASK 4 
+Frontend Task: Contact Form with Styling & Button Interactivity
+Objective:
+Create a “Contact Us” page that:
+Has a clean, styled layout
+Includes a working button with basic JS alert on click
+---
+Page Name: contact.html
+Requirements:
+1. Form Fields:
+Full Name (text input)
+Email Address (email input)
+Subject (text input)
+Message (textarea)
+Submit Button
+2. Styling:
+Center the form on the page
+Add padding and margin
+Use a consistent color scheme
+Use hover effects on inputs and button
+Make it responsive using media queries
+3. Button Interaction (Basic JavaScript):
+When the user clicks Submit, show this popup:
+alert("Thank you for contacting us, [Name]!");
+(Use document.getElementById() to get the name from input and show it dynamically.)
+4. Use Separate Files:
+contact.html
+style.css
+script.js
+(All linked properly)
+
