@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Us</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="navbar">
+  <<nav class="navbar">
     <a href="index.html#home">Home</a>
     <a href="index.html#about">About</a>
     <a href="index.html#services">Services</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <a href="index.html#contact">Contact</a>
+</nav>
 
-  <div class="container">
-    <section id="contact" class="section four">
-      <h2>Contact Us</h2>
-      <form class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
 
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" required />
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" required>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" required>
 
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </div>
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
 
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
